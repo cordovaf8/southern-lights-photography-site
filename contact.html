@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Southern Lights Photography Co.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">SL</span><span><strong>Southern Lights</strong><small>Photography Co.</small></span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav"><a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="https://southernlightsphotographyco.mypixieset.com/gallery-copy/" target="_blank" rel="noopener noreferrer">Client Gallery</a><a href="pricing.html">Pricing</a><a href="appointments.html">Appointments</a><a href="contact.html" class="active">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <p class="eyebrow">Contact</p>
+      <h1>Let’s plan your next picture day.</h1>
+      <p>Use this page for league inquiries, team media days, school sports, and custom photo sessions.</p>
+    </section>
+
+    <section class="contact-layout">
+      <div class="contact-card">
+        <h2>Southern Lights Photography Co.</h2>
+        <p><strong>Serving:</strong> Floresville, Texas and surrounding Southern communities</p>
+        <p><strong>Email:</strong> <a href="mailto:hello@southernlightsphotography.co">hello@southernlightsphotography.co</a></p>
+        <p><strong>Turnaround:</strong> 2–3 weeks for edited digital images</p>
+        <p class="muted">Update the email and social links once your business email/domain are finalized.</p>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/xnjydeje" method="POST">
+        <label>Name<input type="text" name="name" placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" placeholder="you@example.com" /></label>
+        <label>Message<textarea name="message" rows="6" placeholder="Tell us about your team or event"></textarea></label>
+        <button class="button primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Southern Lights Photography Co.</p><p>Capturing Life’s Moments That Matter Most.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
