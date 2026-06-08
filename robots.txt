@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cordovaf8.github.io/southern-lights-photography-site/sitemap.xml

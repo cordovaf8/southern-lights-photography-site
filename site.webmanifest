@@ -1,0 +1,16 @@
+{
+  "name": "Southern Lights Photography Co.",
+  "short_name": "Southern Lights",
+  "description": "Sports photography, team photos, and family portraits in Floresville, Texas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4efe6",
+  "theme_color": "#a88354",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
